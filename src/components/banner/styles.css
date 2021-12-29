@@ -1,0 +1,19 @@
+.banner{
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    /* background-image: linear-gradient(rgba(255,255,255),rgba(255,255,255)); */
+}
+.para{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #fff;
+}
+.name{
+    font-size: 5rem;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 5px;
+    line-height: 1.3;
+    
+}

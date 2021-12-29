@@ -2,6 +2,7 @@ import { Route, Switch } from 'react-router-dom';
 import HomepageLayout from './layouts/HomepageLayout'
 import Homepage from './pages/Homepage'
 import Contact from './pages/Contact'
+import About from './pages/About'
 
 function App() {
   return (
@@ -16,6 +17,12 @@ function App() {
          <Route exact path="/contact" render={() => (
          <HomepageLayout>
          <Contact/>
+         </HomepageLayout>
+        )}
+        /> 
+         <Route exact path="/about" render={() => (
+         <HomepageLayout>
+         <About/>
          </HomepageLayout>
         )}
         /> 
